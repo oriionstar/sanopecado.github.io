@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sano Pecado - Comida Saludable con Sabor a Pecado</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Tipografías: Fraunces (títulos) + Work Sans (texto) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- HEADER / HERO -->
+    <header class="hero" id="inicio">
+        <nav class="navbar">
+            <div class="logo-container">
+                <img src="resources/sanopecadologo-light.png" alt="Sano Pecado Logo" class="nav-logo-img">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#nosotros">SOBRE NOSOTROS</a></li>
+                <li><a href="#menu">MENÚ</a></li>
+                <li><a href="#ubicacion">UBICACIÓN</a></li>
+                <li><a href="#momentos">MOMENTOS</a></li>
+                <li><a href="#eventos">EVENTOS</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <p class="hero-sub">Para los adictos a lo bueno</p>
+            <h1>COMIDA <span class="highlight-2">SALUDABLE</span> CON <span class="highlight">SABOR A PECADO</span></h1>
+            <a href="#nosotros" class="btn-learn">APRENDE MAS</a>
+        </div>
+    </header>
+
+    <!-- SOBRE NOSOTROS -->
+    <section id="nosotros" class="about-section">
+        <div class="section-title-box"><h2>SOBRE NOSOTROS</h2></div>
+        <div class="about-container">
+            <div class="about-text-box">
+                <h2>¿QUIENES SOMOS?</h2>
+                <p>Somos un restairante dedicaod a ofrecer platillos y bebidas saludables para aquellos que deseen un lugar de entretenimiento para platicar y pasar el rato comiendo un platillo saludable, pero delicioso.</p>
+                <a href="#menu" class="btn-more">VER EL MENÚ &gt;</a>
+                <details>
+                    <summary  class="about-details"><h3>CONTÁCTANOS</h3></summary>
+                    <div class="contact-card">
+                        <p><i class="fas fa-phone"></i> +58 412-640590</p>
+                        <p><i class="fab fa-instagram"></i> @SANOPECADOMCBO</p>
+                        <p><i class="fas fa-envelope"></i> SANOPECADOMARACAIBO@GMAIL.COM</p>
+                    </div>
+                </details>
+                <details>
+                    <summary class="about-details"><h3>HORARIO DE ATENCIÓN</h3></summary>
+                      <h4>HORARIO</h4>
+                        <ol>
+                            <li><strong>LUNES A JUEVES</strong> <br> 7:30a.m. a 10:00p.m.</li>
+                            <li><strong>VIERNES Y SÁBADO</strong> <br> 7:30a.m. a 11:00p.m.</li>
+                            <li><strong>DOMINGO</strong> <br> CERRADO</li>
+                        </ol>
+                </details>
+
+                <details>
+                    <summary class="about-details"><h3>NUESTRA UBICACIÓN</h3></summary>
+                    <p class="address">Local No 1, Calle 77, 24-141 sector 5 de julio, Maracaibo 4001, Zulia</p>
+                <div class="map-placeholder">
+                    <a href="https://www.google.com/maps/place/Sano+Pecado/@10.6660683,-71.5974042,17.94z/data=!4m6!3m5!1s0x8e89996809b9e875:0x4cef71aa7d1c7322!8m2!3d10.6669456!4d-71.594998!16s%2Fg%2F11xkxkdpnr?entry=tts&g_ep=EgoyMDI1MDYyMy4wIPu8ASoASAFQAw%3D%3D&skid=0a6f41fe-3082-4f41-b4da-085a7cf6a669" target="_blank" rel="noopener noreferrer" class="map-link">
+                        <img src="resources/ubi.jpg" alt="Ver ubicación en Google Maps" class="map-img">
+                        <div class="map-overlay">
+                            <span><i class="fas fa-map-marker-alt"></i> TOCAR PARA ABRIR EN GOOGLE MAPS</span>
+                        </div>
+                    </a>
+                </details>
+            </div>
+
+             <div class="about-image">
+                <div class="about-img">
+                    <img src="resources/quienessomos.png" alt="Sano Pecado">
+                </div>
+            </div>
+
+        </div>
+           
+    </section>
+
+    <!-- MENÚ -->
+    <section id="menu" class="menu-section">
+        <div class="section-title-box">
+           <h2>LO MEJOR DE SANO PECADO</h2>
+        </div>
+       
+        <ul class="menu-tabs">
+            <li><button type="button" class="tab active">NOVEDADES</button></li>
+            <li><button type="button" class="tab">LO MEJOR</button></li>
+            <li><button type="button" class="tab">DESAYUNOS</button></li>
+            <li><button type="button" class="tab">BEBIDAS</button></li>
+            <li><button type="button" class="tab">POSTRES</button></li>
+        </ul>
+
+        <div class="carousel-container">
+            <button class="carousel-btn prev">&lt;</button>
+            <div class="carousel-grid">
+                <div class="menu-card">
+                    <img src="resources/icedlatte.jpg" alt="Iced Latte">
+                    <span class="card-tag">NUEVO</span>
+                    <p class="card-title">Iced Latte</p>
+                </div>
+                <div class="menu-card">
+                    <img src="resources/clouddancer.jpg" alt="Cloud Dancer">
+                    <p class="card-title">Protein Shake</p>
+                </div>
+                <div class="menu-card">
+                    <img src="resources/torta.jpg" alt="Postre">
+                    <p class="card-title">Holy Hummus</p>
+                </div>
+            </div>
+            <button class="carousel-btn next">&gt;</button>
+        </div>
+        <a href="#" class="btn-more">VER CARTA COMPLETA &gt;</a>
+    </section>
+
+   
+
+    <!-- MOMENTOS -->
+    <section id="momentos" class="moments-section">
+        <div class="section-title-box">
+            <h2>MOMENTOS</h2>
+        </div>
+        <div class="carousel-container">
+            <button class="carousel-btn prev">&lt;</button>
+            <div class="carousel-grid">
+                <div class="moment-card">
+                    <span class="insta-handle">@PUENTESALAN</span>
+                    <img src="resources/momentos.jpg" alt="Momento Sano Pecado">
+                </div>
+                <div class="moment-card">
+                    <span class="insta-handle">@MYTWINSTORY</span>
+                    <img src="resources/momentos2.jpg" alt="Momento Sano Pecado">
+                </div>
+                <div class="moment-card">
+                    <span class="insta-handle">@VALERIASAB</span>
+                    <img src="resources/momentos3.jpg" alt="Momento Sano Pecado">
+                </div>
+            </div>
+            <button class="carousel-btn next">&gt;</button>
+        </div>
+    </section>
+
+    <!-- EVENTOS -->
+    <section id="eventos" class="events-section">
+        <div class="section-title-box">
+            <h2>EVENTOS</h2>
+        </div>
+        <div class="events-container">
+            <div class="event-image-box">
+                <img src="resources/eventos.jpg" alt="Transmisión de Evento">
+            </div>
+            <div class="event-text-box">
+                <h3>Así se ve el Mundial 2026 en Sano Pecado</h3>
+                <p>Bowl en mano, pantalla HD, squad completo. <br>
+                    No vienes a ver el partido. ¡Vienes a vivirlo! ⚽
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="main-footer">
+        <div class="footer-brand">
+            <img src="resources/sanopecadologo-light.png" alt="" class="footer-logo-img">
+            <p>COMIDA SALUDABLE QUE SABE A PECADO</p>
+        </div>
+        <div class="footer-links-grid">
+
+            <div class="footer-column">
+                <h4>NAVEGACIÓN</h4>
+                <a href="#nosotros">Sobre nosotros</a>
+                <a href="#menu">Menú</a>
+                <a href="#ubicacion">Dónde estamos</a>
+                <a href="#momentos">Momentos</a>
+                <a href="#eventos">Eventos</a>
+            </div>
+            <div class="footer-column">
+                <h4>TÉRMINOS</h4>
+                <a href="#">Cookies</a>
+            </div>
+            <div class="footer-column">
+                <h4>SERVICIO AL CLIENTE</h4>
+                <a href="#">FAQ</a>
+            </div>
+        </div>
+        <div class="footer-socials">
+            <h4><strong>CONTÁCTANOS</strong></h4>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        // Realce visual simple de la pestaña de categoría activa en el menú (sin cambiar contenido)
+        document.querySelectorAll('.menu-tabs .tab').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                document.querySelectorAll('.menu-tabs .tab').forEach(function (b) { b.classList.remove('active'); });
+                btn.classList.add('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
