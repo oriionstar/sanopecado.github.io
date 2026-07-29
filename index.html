@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sano Pecado - Comida Saludable con Sabor a Pecado</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Tipografías: Fraunces (títulos) + Work Sans (texto) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- HEADER: solo la barra de navegación, fija e independiente del hero -->
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <img id="logo-img" src="img/sanopecadologo-light.png" alt="Sano Pecado Logo" class="nav-logo-img">
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#nosotros">SOBRE NOSOTROS</a></li>
+                <li><a href="#menu">MENÚ</a></li>
+                <li><a href="#ubicacion" id="btn-ubicacion">UBICACIÓN</a></li>
+                <li><a href="#momentos-section">MOMENTOS</a></li>
+            </ul>
+            <button type="button" class="hamburger" id="hamburgerBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- HERO: sección independiente del header -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <p class="hero-sub">Para los adictos a lo bueno</p>
+            <h1>COMIDA <span class="highlight-2">SALUDABLE</span> CON <span class="highlight">SABOR A PECADO</span></h1>
+            <a href="#nosotros" class="btn-learn">APRENDE MAS</a>
+        </div>
+    </section>
+
+    <!-- ICONOS SOCIALES FLOTANTES -->
+    <div class="floating-socials">
+        <a href="https://www.instagram.com/sanopecadomcbo" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:sanopecadomaracaibo@gmail.com" aria-label="Correo"><i class="fas fa-envelope"></i></a>
+        <a href="https://wa.me/584126400590" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <!-- SOBRE NOSOTROS -->
+    <section id="nosotros" class="about-section">
+        <div class="section-title-box-first"><h2>SOBRE NOSOTROS</h2></div>
+        <br>
+        <div class="about-container">
+            <div class="about-text-box">
+                <h2>¿QUIENES SOMOS?</h2>
+                <p>Somos un restaurante dedicado a ofrecer platillos y bebidas saludables para aquellos que deseen un lugar de entretenimiento para platicar y pasar el rato comiendo un platillo saludable, pero delicioso.</p>
+                <a href="#menu" class="btn-more">VER EL MENÚ &gt;</a>
+                <details open>
+                    <summary  class="about-details"><h3>CONTÁCTANOS</h3></summary>
+                    <div class="details-panel"><div class="details-panel-inner">
+                        <div class="contact-card">
+                            <p><i class="fas fa-phone"></i> +58 412-640590</p>
+                            <p><i class="fab fa-instagram"></i> @SANOPECADOMCBO</p>
+                            <p><i class="fas fa-envelope"></i> SANOPECADOMARACAIBO@GMAIL.COM</p>
+                        </div>
+                    </div></div>
+                </details>
+                <details open>
+                    <summary class="about-details"><h3>HORARIO DE ATENCIÓN</h3></summary>
+                    <div class="details-panel"><div class="details-panel-inner">
+                        <div class="contact-card">
+                            <ol>
+                                <li><p>LUNES A JUEVES - 7:30a.m. a 10:00p.m.</p></li>
+                                <li><p>VIERNES Y SÁBADO - 7:30a.m. a 11:00p.m.</p></li>
+                                <li><p>DOMINGO - CERRADO</p></li>
+                            </ol>
+                        </div>
+                    </div></div>
+                </details>
+
+                <details open id="ubicacion">
+                    <summary class="about-details"><h3>NUESTRA UBICACIÓN</h3></summary>
+                    <div class="details-panel"><div class="details-panel-inner">
+                        <div class="contact-card">
+                            <p class="address" >Local No 1, Calle 77, 24-141 sector 5 de julio, Maracaibo 4001, Zulia</p>
+                            <div class="map-placeholder" >
+                                <a id="ubicacion" href="https://www.google.com/maps/place/Sano+Pecado/@10.6660683,-71.5974042,17.94z/data=!4m6!3m5!1s0x8e89996809b9e875:0x4cef71aa7d1c7322!8m2!3d10.6669456!4d-71.594998!16s%2Fg%2F11xkxkdpnr?entry=tts&g_ep=EgoyMDI1MDYyMy4wIPu8ASoASAFQAw%3D%3D&skid=0a6f41fe-3082-4f41-b4da-085a7cf6a669" target="_blank" rel="noopener noreferrer" class="map-link">
+                                    <img src="img/ubi.jpg" alt="Ver ubicación en Google Maps" class="map-img">
+
+                                    <div class="map-overlay">
+                                        <span><i class="fas fa-map-marker-alt"></i> TOCAR PARA ABRIR EN GOOGLE MAPS</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div></div>
+                </details>
+            </div>
+
+            <div class="imgs">
+                <img class="imagen-banner" src="img/qsca.jpg" alt="Restaurante">
+             
+            </div>
+
+        </div>
+           
+    </section>
+
+  <section id="menu" class="menu-section">
+    <div class="section-title-box">
+        <h2>LO MEJOR DE SANO PECADO</h2>
+    </div>
+    
+    <ul class="menu-tabs">
+        <li><button type="button" class="tab active">NOVEDADES</button></li>
+        <li><button type="button" class="tab">LO MEJOR</button></li>
+        <li><button type="button" class="tab">DESAYUNOS</button></li>
+        <li><button type="button" class="tab">BEBIDAS</button></li>
+        <li><button type="button" class="tab">POSTRES</button></li>
+    </ul>
+
+    <div class="carousel-container">
+    
+        <button type="button" id="prevBtn" class="carousel-btn prev">&lt;</button>
+        
+        <div class="carousel-grid">
+            <div class="menu-card">
+                <img src="img/icedlatte.jpg" alt="Iced Latte">
+                <span class="card-tag">NUEVO</span>
+                <p class="card-title">Iced Latte</p>
+            </div>
+            <div class="menu-card">
+                <img src="img/clouddancer.jpg" alt="Cloud Dancer">
+                <p class="card-title">Protein Shake</p>
+            </div>
+            <div class="menu-card">
+                <img src="img/torta.jpg" alt="Postre">
+                <p class="card-title">Holy Hummus</p>
+            </div>
+        </div>
+
+        <button type="button" id="nextBtn" class="carousel-btn next">&gt;</button>
+    </div>
+
+    <a href="#" class="btn-more">VER CARTA COMPLETA &gt;</a>
+</section>
+
+<!-- Sección Momentos -->
+<section class="momentos-section">
+  <!-- Mitad izquierda: Imagen -->
+  <div class="momentos-imagen">
+    <img id="momentosImg" src="img/momentos2.jpg" alt="Momentos en Sano Pecado">
+    
+  </div>
+
+  <!-- Mitad derecha: Texto y Redes -->
+  <div class="momentos-contenido">
+    <h2 class="momentos-titulo">MOMENTOS</h2>
+    <h3 class="momentos-subtitulo">ASÍ DISFUTAMOS EN SANO PECADO</h3>
+    
+    <p class="momentos-texto">
+      Observa las memorias de quienes vienen a disfrutar en nuestro establecimiento sin un auge de culpa. ¡Únetenos y comparte tu momento en nuestro instagram, @sanopecadomcbo!
+    </p>
+    
+    <hr class="momentos-linea">
+    
+   <a href="https://www.instagram.com/stories/highlights/18066778604030152/" class="btn-publica" target="_blank">
+  ¡Publica tu momento de Pecado!
+   </a>
+  </div>
+</section>
+
+
+    <!-- EVENTOS -->
+
+    <!--
+    <section id="eventos" class="events-section">
+        <div class="section-title-box">
+            <h2>EVENTOS</h2>
+        </div>
+        <div class="events-container">
+            <div class="event-image-box">
+                <img src="resources/eventos.jpg" alt="Transmisión de Evento">
+            </div>
+            <div class="event-text-box">
+                <h3>Así se ve el Mundial 2026 en Sano Pecado</h3>
+                <p>Bowl en mano, pantalla HD, squad completo. <br>
+                    No vienes a ver el partido. ¡Vienes a vivirlo! ⚽
+                </p>
+            </div>
+        </div>
+    </section>
+
+    -->
+    <!-- FOOTER -->
+
+    <footer class="main-footer">
+        <div class="footer-brand">
+            <img src="img/sanopecadologo-light.png" alt="" class="footer-logo-img">
+            <p>COMIDA SALUDABLE QUE SABE A PECADO</p>
+        </div>
+        <div class="footer-links-grid">
+
+            <div class="footer-column">
+                <h4>NAVEGACIÓN</h4>
+                <a href="#nosotros">Sobre nosotros</a>
+                <a href="#menu">Menú</a>
+                <a href="#ubicacion">Dónde estamos</a>
+                <a href="#momentos">Momentos</a>
+            </div>
+            <div class="footer-column">
+                <h4>TÉRMINOS</h4>
+                <a href="#">Cookies</a>
+            </div>
+            <div class="footer-column">
+                <h4>SERVICIO AL CLIENTE</h4>
+                <a href="#">FAQ</a>
+            </div>
+        </div>
+        <div class="footer-socials">
+            <h4><strong>CONTÁCTANOS</strong></h4>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <script>
+        // Realce visual simple de la pestaña de categoría activa en el menú (sin cambiar contenido)
+        document.querySelectorAll('.menu-tabs .tab').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                document.querySelectorAll('.menu-tabs .tab').forEach(function (b) { b.classList.remove('active'); });
+                btn.classList.add('active');
+            });
+        });
+
+        // Navbar: se vuelve opaca al salir de su posición original (arriba del todo)
+        (function () {
+            const navbar = document.querySelector('.navbar');
+            const threshold = 60;
+
+            function updateNavbar() {
+                if (window.scrollY > threshold) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            }
+
+            updateNavbar();
+            window.addEventListener('scroll', updateNavbar, { passive: true });
+        })();
+
+        // Menú de hamburguesa (solo actúa visualmente en móviles vía CSS)
+        (function () {
+            const hamburger = document.getElementById('hamburgerBtn');
+            const navLinks = document.getElementById('navLinks');
+            if (!hamburger || !navLinks) return;
+
+            function closeMenu() {
+                navLinks.classList.remove('open');
+                hamburger.classList.remove('open');
+                hamburger.setAttribute('aria-expanded', 'false');
+                document.body.classList.remove('no-scroll');
+            }
+
+            hamburger.addEventListener('click', function () {
+                const isOpen = navLinks.classList.toggle('open');
+                hamburger.classList.toggle('open', isOpen);
+                hamburger.setAttribute('aria-expanded', String(isOpen));
+                document.body.classList.toggle('no-scroll', isOpen);
+            });
+
+            // Cierra el menú al elegir una sección
+            navLinks.querySelectorAll('a').forEach(function (link) {
+                link.addEventListener('click', closeMenu);
+            });
+
+            // Cierra el menú si la ventana vuelve a tamaño de escritorio
+            window.addEventListener('resize', function () {
+                if (window.innerWidth > 900) closeMenu();
+            });
+        })();
+
+        // Animación de apertura/cierre para los <details> (mantiene el contenido
+        // siempre presente y controla la transición con la clase "active")
+        (function () {
+            document.querySelectorAll('details').forEach(function (details) {
+                const summary = details.querySelector('summary');
+
+                // Estado inicial: todos cerrados y animables
+                details.classList.remove('active');
+
+                summary.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    details.classList.toggle('active');
+                });
+            });
+        })();
+// Seleccionamos el enlace y el elemento details
+const enlaceUbicacion = document.getElementById('btn-ubicacion');
+const detalleUbicacion = document.getElementById('ubicacion');
+
+// Escuchamos cuando el usuario haga clic en el enlace
+enlaceUbicacion.addEventListener('click', (e) => {
+    // 1. Evitamos el salto brusco por defecto del href="#ubicacion"
+    e.preventDefault();
+
+    // 2. Abrimos el details usando TU lógica (agregando la clase 'active')
+    detalleUbicacion.classList.add('active');
+    
+    // (Opcional pero recomendado) Mantenemos el atributo open por semántica HTML
+    detalleUbicacion.open = true;
+
+    // 3. Hacemos un scroll suave y elegante hacia la tarjeta recién abierta
+    detalleUbicacion.scrollIntoView({ behavior: 'smooth' });
+});
+    </script>
+    <script src="js/scripts.js"></script>
+  
+</body>
+</html>
